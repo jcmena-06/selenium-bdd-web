@@ -4,6 +4,12 @@
   <artifactId>java-selenium-bdd</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+  	<project.build.spurceEncoding>UTF-8</project.build.spurceEncoding>
+  	<maven.compiler.source>18</maven.compiler.source>
+  	<maven.compiler.target>18</maven.compiler.target>
+  </properties>
+  
    <dependencies>
 		
 		<!-- Selenium -->
@@ -68,6 +74,20 @@
 		    <groupId>io.github.bonigarcia</groupId>
 		    <artifactId>webdrivermanager</artifactId>
 		    <version>5.0.3</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+   			 <groupId>io.cucumber</groupId>
+   			 <artifactId>cucumber-java</artifactId>
+   			 <version>7.11.0</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+    		 <groupId>io.cucumber</groupId>
+    		 <artifactId>cucumber-testng</artifactId>
+    		 <version>7.11.0</version>
 		</dependency>
 
 	</dependencies>
